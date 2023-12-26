@@ -28,9 +28,7 @@ const Home = () => {
     navigate("/products");
   };
 
-  const navigateToProductsPage = () => {
-    navigate("/products");
-  };
+  const navigateToProductsPage = () => navigate("/products");
 
   return (
     <div className="home">

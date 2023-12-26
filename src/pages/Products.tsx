@@ -121,7 +121,7 @@ const Products = () => {
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="Incredible_Frozen_Table"
                     checked={multipleFilters.brand[0]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.brand];
@@ -132,13 +132,15 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>Incredible Frozen Table</label>
+                  <label htmlFor="Incredible_Frozen_Table">
+                    Incredible Frozen Table
+                  </label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="Tasty_Wooden_Car"
                     checked={multipleFilters.brand[1]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.brand];
@@ -149,7 +151,7 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>Tasty Wooden Car</label>
+                  <label htmlFor="Tasty_Wooden_Car">Tasty Wooden Car</label>
                 </div>
               </div>
             )}
@@ -173,7 +175,7 @@ const Products = () => {
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="under_500"
                     checked={multipleFilters.price[0]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.price];
@@ -184,13 +186,13 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>Under 500</label>
+                  <label htmlFor="under_500">Under 500</label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="between1000_3000"
                     checked={multipleFilters.price[1]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.price];
@@ -201,7 +203,7 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>1000 to 3000</label>
+                  <label htmlFor="between1000_3000">1000 to 3000</label>
                 </div>
               </div>
             )}
@@ -225,7 +227,7 @@ const Products = () => {
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="rating5"
                     checked={multipleFilters.rating[4]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.rating];
@@ -236,13 +238,13 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>{ratingBox(5)}</label>
+                  <label htmlFor="rating5">{ratingBox(5)}</label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="rating4"
                     checked={multipleFilters.rating[3]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.rating];
@@ -253,13 +255,13 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>{ratingBox(4)}</label>
+                  <label htmlFor="rating4">{ratingBox(4)}</label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="rating3"
                     checked={multipleFilters.rating[2]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.rating];
@@ -270,13 +272,13 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>{ratingBox(3)}</label>
+                  <label htmlFor="rating3">{ratingBox(3)}</label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="rating2"
                     checked={multipleFilters.rating[1]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.rating];
@@ -287,13 +289,13 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>{ratingBox(2)}</label>
+                  <label htmlFor="rating2">{ratingBox(2)}</label>
                 </div>
                 <div className="input_label_container">
                   <input
                     type="checkbox"
                     name=""
-                    id=""
+                    id="rating1"
                     checked={multipleFilters.rating[0]}
                     onChange={() => {
                       const updatedFilter = [...multipleFilters.rating];
@@ -304,7 +306,7 @@ const Products = () => {
                       });
                     }}
                   />
-                  <label>{ratingBox(1)}</label>
+                  <label htmlFor="rating1">{ratingBox(1)}</label>
                 </div>
               </div>
             )}
