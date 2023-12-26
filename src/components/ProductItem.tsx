@@ -34,7 +34,7 @@ const ProductItem = ({ product }: ProductItemType) => {
         <img
           className="product_img"
           src={product.productImg}
-          alt=""
+          alt="product_img"
           onMouseOver={() => setShowViewProduct(true)}
           onMouseOut={() => setShowViewProduct(false)}
         />
@@ -49,11 +49,11 @@ const ProductItem = ({ product }: ProductItemType) => {
           </div>
         )}
       </div>
-      <div>{product.productName}</div>
-      <div>
+      <p>{product.productName}</p>
+      <p>
         <span className="org_price">Rs. {product.productOrgPrice} </span>
         <span className="dis_price">Rs. {product.productDisPrice} </span>
-      </div>
+      </p>
       <div className="rating_and_reviews_container">
         {ratingBox(product.productRating)} ({product.productsReviews})
       </div>

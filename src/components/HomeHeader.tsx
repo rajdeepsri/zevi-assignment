@@ -3,7 +3,7 @@ import "./HomeHeader.scss";
 const HomeHeader = () => {
   return (
     <div className="home_header">
-      <img src={logo} alt="" />
+      <img src={logo} alt="logo" />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const ProductsNavBar = () => {
           <RiSearch2Line size="24" />
         </button>
       </form>
-      <img src={logo} alt="" />
+      <img src={logo} alt="logo" />
     </div>
   );
 };
